@@ -70,7 +70,7 @@ const promoCodeContainer = `<div class="promoCodeContainer">
 </div>`;
 const bankContainerRenewedWatch = `<div class="bankContainer">
 <div class="bankRenewed">
-    <p>Merhaba <span class="senderName">selma hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName"></span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
@@ -131,7 +131,7 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
 </div>`;
 const bankContainerRenewed = `<div class="bankContainer">
 <div class="bankRenewed">
-    <p>Merhaba <span class="senderName">Selma Hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName"></span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
@@ -189,7 +189,7 @@ const bankContainerRenewed = `<div class="bankContainer">
 </div>`;
 const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
 <div class="bankFirstPurchase">
-    <p>Merhaba <span class="senderName">Selma Hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName"></span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
@@ -243,7 +243,7 @@ const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
 </div>`;
 const bankContainerFirstPurchase = `<div class="bankContainer">
 <div class="bankFirstPurchase">
-    <p>Merhaba <span class="senderName">Selma Hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName"></span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span

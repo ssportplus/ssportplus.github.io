@@ -298,6 +298,12 @@ if (document.readyState == "loading" || document.readyState == "complete") {
     }
 }
 
+function titleCase(string) {
+    let sentence = string.toLowerCase().split(" ");
+    for (let i = 0; i < sentence.length; i++) {
+        sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
+    }
+};
 const radioChoice = () => {
     if (codeRadio.checked) {
         codeFormContainer.innerHTML = codeFormContainerInnerHTML;
@@ -348,9 +354,9 @@ const renewedSubmit = () => {
         const packageNameQuery = document.querySelectorAll(".packageName");
         const paymentDateQuery = document.querySelectorAll(".paymentDate");
         const packagePriceQuery = document.querySelector(".packagePrice")
-        senderNameQuery.innerText = senderName.value;
-        customerNameQuery.innerText = customerName.value;
-        customerSurnameQuery.innerText = customerSurname.value;
+        senderNameQuery.innerText = titleCase(senderName.value);
+        customerNameQuery.innerText = titleCase(customerName.value);
+        customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.innerText = registerDate.value;
         packageNameQuery.forEach(e => {
@@ -371,9 +377,9 @@ const renewedSubmit = () => {
         const packageNameQuery = document.querySelectorAll(".packageName");
         const paymentDateQuery = document.querySelector(".paymentDate");
         const packagePriceQuery = document.querySelector(".packagePrice")
-        senderNameQuery.innerText = senderName.value;
-        customerNameQuery.innerText = customerName.value;
-        customerSurnameQuery.innerText = customerSurname.value;
+        senderNameQuery.innerText = titleCase(senderName.value);
+        customerNameQuery.innerText = titleCase(customerName.value);
+        customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.innerText = registerDate.value;
         packageNameQuery.forEach(e => {
@@ -403,9 +409,9 @@ const firstPurchaseSubmit = () => {
         const customerEmailQuery = document.querySelector(".customerEmail");
         const registerDateQuery = document.querySelectorAll(".registerDate");
         const packageNameQuery = document.querySelectorAll(".packageName");
-        senderNameQuery.innerText = senderName.value;
-        customerNameQuery.innerText = customerName.value;
-        customerSurnameQuery.innerText = customerSurname.value;
+        senderNameQuery.innerText = titleCase(senderName.value);
+        customerNameQuery.innerText = titleCase(customerName.value);
+        customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.forEach(e => {
             e.innerText = registerDate.value
@@ -422,9 +428,9 @@ const firstPurchaseSubmit = () => {
         const customerEmailQuery = document.querySelector(".customerEmail");
         const registerDateQuery = document.querySelectorAll(".registerDate");
         const packageNameQuery = document.querySelectorAll(".packageName");
-        senderNameQuery.innerText = senderName.value;
-        customerNameQuery.innerText = customerName.value;
-        customerSurnameQuery.innerText = customerSurname.value;
+        senderNameQuery.innerText = titleCase(senderName.value);
+        customerNameQuery.innerText = titleCase(customerName.value);
+        customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.forEach(e => {
             e.innerText = registerDate.value

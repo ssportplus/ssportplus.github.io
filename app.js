@@ -70,11 +70,11 @@ const promoCodeContainer = `<div class="promoCodeContainer">
 </div>`;
 const bankContainerRenewedWatch = `<div class="bankContainer">
 <div class="bankRenewed">
-    <p>Merhaba <span style="text-transform: capitalize;" class="senderName">selma hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName">selma hanım</span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
-        <li>Müşterimiz <span style="text-transform: capitalize;" class="customerName">customerName</span> <span
-                class="customerSurname" style="text-transform: capitalize;">customerSurname</span> adıyla, <span
+        <li>Müşterimiz <span class="customerName">customerName</span> <span
+                class="customerSurname">customerSurname</span> adıyla, <span
                 class="customerEmail">customerEmail</span> e-posta adresiyle <span
                 class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
@@ -85,10 +85,10 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
             kendisiyle ÖN BİLGİLENDİRME FORMU ve MESAFELİ SATIŞ VE ABONELİK SÖZLEŞMESİ linkleri paylaşılmış
             ve
             kabul ettiğine dair onay alınmıştır. Sayfanın görseli ektedir.</li>
-        <li>Müşterinin <span class="packageName" style="text-transform: capitalize;">packageName</span> yenilenen S Sport Plus aboneliği
+        <li>Müşterinin <span class="packageName">packageName</span> yenilenen S Sport Plus aboneliği
             bulunmaktadır. </li>
         <li><b>Mesafeli satış ve abonelik sözleşmesinin 2.3 nolu maddesinde</b> <span
-                class="packageName" style="text-transform: capitalize;">packageName</span> paketinin tanımı
+                class="packageName">packageName</span> paketinin tanımı
             yer
             almaktadır ve taraflardan herhangi biri fesih etmedikçe aboneliğin devam edeceği bilgisi bu
             maddede
@@ -105,11 +105,11 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
             olması sebebiyle TC. Gümrük ve Ticaret Bakanlığı <b>Mesafeli Sözleşmeler Yönetmeliği madde 15/ğ
                 kapsamına girdiği için cayma hakkına girmemektedir.</b> (ekte sözleşmeyi görebilirsiniz.)
         </li>
-        <li>Müşteri <span class="packageName" style="text-transform: capitalize;">packageName</span> Abonelik Paketi satın aldıktan sonra
+        <li>Müşteri <span class="packageName">packageName</span> Abonelik Paketi satın aldıktan sonra
             herhangi
             bir iptal talebi olmamış bu
             nedenle <span class="paymentDate">paymentDate</span> tarihinde devam eden dönemin <span
-                class="packageName" style="text-transform: capitalize;">packageName</span> ücreti
+                class="packageName">packageName</span> ücreti
             olan <span class="packagePrice">packagePrice</span>₺ ücret
             tahsil edilmiştir.</li>
         <li>Kullanıcı aboneliğinin yenilendiği <span class="paymentDate">paymentDate</span> tarihinden sonra
@@ -131,11 +131,11 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
 </div>`;
 const bankContainerRenewed = `<div class="bankContainer">
 <div class="bankRenewed">
-    <p>Merhaba <span class="senderName" style="text-transform: capitalize;">Selma Hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName">Selma Hanım</span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
-        <li>Müşterimiz <span class="customerName" style="text-transform: capitalize;">customerName</span> <span
-                class="customerSurname" style="text-transform: capitalize;">customerSurname</span> adıyla, <span
+        <li>Müşterimiz <span class="customerName">customerName</span> <span
+                class="customerSurname">customerSurname</span> adıyla, <span
                 class="customerEmail">customerEmail</span> e-posta adresiyle <span
                 class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
@@ -146,10 +146,10 @@ const bankContainerRenewed = `<div class="bankContainer">
             kendisiyle ÖN BİLGİLENDİRME FORMU ve MESAFELİ SATIŞ VE ABONELİK SÖZLEŞMESİ linkleri paylaşılmış
             ve
             kabul ettiğine dair onay alınmıştır. Sayfanın görseli ektedir.</li>
-        <li>Müşterinin <span class="packageName" style="text-transform: capitalize;">packageName</span> yenilenen S Sport Plus aboneliği
+        <li>Müşterinin <span class="packageName">packageName</span> yenilenen S Sport Plus aboneliği
             bulunmaktadır. </li>
         <li><b>Mesafeli satış ve abonelik sözleşmesinin 2.3 nolu maddesinde</b> <span
-                class="packageName" style="text-transform: capitalize;">packageName</span> paketinin tanımı
+                class="packageName">packageName</span> paketinin tanımı
             yer
             almaktadır ve taraflardan herhangi biri fesih etmedikçe aboneliğin devam edeceği bilgisi bu
             maddede
@@ -166,11 +166,11 @@ const bankContainerRenewed = `<div class="bankContainer">
             olması sebebiyle TC. Gümrük ve Ticaret Bakanlığı <b>Mesafeli Sözleşmeler Yönetmeliği madde 15/ğ
                 kapsamına girdiği için cayma hakkına girmemektedir.</b> (ekte sözleşmeyi görebilirsiniz.)
         </li>
-        <li>Müşteri <span class="packageName" style="text-transform: capitalize;">packageName</span> Abonelik Paketi satın aldıktan sonra
+        <li>Müşteri <span class="packageName">packageName</span> Abonelik Paketi satın aldıktan sonra
             herhangi
             bir iptal talebi olmamış bu
             nedenle <span class="paymentDate">paymentDate</span> tarihinde devam eden dönemin <span
-                class="packageName" style="text-transform: capitalize;">packageName</span> ücreti
+                class="packageName">packageName</span> ücreti
             olan <span class="packagePrice">packagePrice</span>₺ ücret
             tahsil edilmiştir.</li>
         <li>Sözleşmelerin nüshaları ekte, web adresleri aşağıdaki gibidir;
@@ -189,11 +189,11 @@ const bankContainerRenewed = `<div class="bankContainer">
 </div>`;
 const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
 <div class="bankFirstPurchase">
-    <p>Merhaba <span class="senderName" style="text-transform: capitalize;">Selma Hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName">Selma Hanım</span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
-        <li>Müşterimiz <span class="customerName" style="text-transform: capitalize;">customerName</span> <span
-                class="customerSurname" style="text-transform: capitalize;">customerSurname</span> adıyla, <span
+        <li>Müşterimiz <span class="customerName">customerName</span> <span
+                class="customerSurname">customerSurname</span> adıyla, <span
                 class="customerEmail">customerEmail</span>
             e-posta adresiyle <span class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
@@ -204,10 +204,10 @@ const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
             kendisiyle ÖN BİLGİLENDİRME FORMU ve MESAFELİ SATIŞ VE ABONELİK SÖZLEŞMESİ linkleri paylaşılmış
             ve
             kabul ettiğine dair onay alınmıştır. Sayfanın görseli ektedir.</li>
-        <li>Müşterinin <span class="packageName" style="text-transform: capitalize;">packageName</span> yenilenen S Sport Plus aboneliği
+        <li>Müşterinin <span class="packageName">packageName</span> yenilenen S Sport Plus aboneliği
             bulunmaktadır. </li>
         <li><b>Mesafeli satış ve abonelik sözleşmesinin 2.3 nolu maddesinde</b> <span
-                class="packageName" style="text-transform: capitalize;">packageName</span> paketinin tanımı
+                class="packageName">packageName</span> paketinin tanımı
             yer
             almaktadır ve taraflardan herhangi biri fesih etmedikçe aboneliğin devam edeceği bilgisi bu
             maddede
@@ -243,11 +243,11 @@ const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
 </div>`;
 const bankContainerFirstPurchase = `<div class="bankContainer">
 <div class="bankFirstPurchase">
-    <p>Merhaba <span class="senderName" style="text-transform: capitalize;">Selma Hanım</span>,<br><br>
+    <p>Merhaba <span class="senderName">Selma Hanım</span>,<br><br>
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
-        <li>Müşterimiz <span class="customerName" style="text-transform: capitalize;">customerName</span> <span
-                class="customerSurname" style="text-transform: capitalize;">customerSurname</span> adıyla, <span
+        <li>Müşterimiz <span class="customerName">customerName</span> <span
+                class="customerSurname">customerSurname</span> adıyla, <span
                 class="customerEmail">customerEmail</span>
             e-posta adresiyle <span class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
@@ -258,10 +258,10 @@ const bankContainerFirstPurchase = `<div class="bankContainer">
             kendisiyle ÖN BİLGİLENDİRME FORMU ve MESAFELİ SATIŞ VE ABONELİK SÖZLEŞMESİ linkleri paylaşılmış
             ve
             kabul ettiğine dair onay alınmıştır. Sayfanın görseli ektedir.</li>
-        <li>Müşterinin <span class="packageName" style="text-transform: capitalize;">packageName</span> yenilenen S Sport Plus aboneliği
+        <li>Müşterinin <span class="packageName">packageName</span> yenilenen S Sport Plus aboneliği
             bulunmaktadır. </li>
         <li><b>Mesafeli satış ve abonelik sözleşmesinin 2.3 nolu maddesinde</b> <span
-                class="packageName" style="text-transform: capitalize;">packageName</span> paketinin tanımı
+                class="packageName">packageName</span> paketinin tanımı
             yer
             almaktadır ve taraflardan herhangi biri fesih etmedikçe aboneliğin devam edeceği bilgisi bu
             maddede

@@ -1,59 +1,111 @@
-const firstDiv = document.querySelector(".firstDiv");
+const firstDiv = document.getElementsByClassName("firstDiv container");
 const secondDiv = document.querySelector(".secondDiv");
 const codeRadio = document.getElementById("codeRadio");
 const bankRadio = document.getElementById("bankRadio");
 const isBank = document.querySelector(".isBank");
-const isBankInnerHTML = `<label for="renewed">Yenileme</label>
-<input type="radio" name="bankRadio2" id="renewed" onclick="isBankChoice()">
-<label for="firstPurchase">İlk Çekim</label>
-<input type="radio" name="bankRadio2" id="firstPurchase" onclick="isBankChoice()">`;
+const isBankInnerHTML = `<label class="example-send-yourself-copy" for="renewed">
+<input type="radio" name="bankRadio2" id="renewed" checked onclick="isBankChoice()">
+<span class="label-body">Yenileme</span>
+</label>
+<label class="example-send-yourself-copy" for="firstPurchase">
+<input type="radio" name="bankRadio2" id="firstPurchase" onclick="isBankChoice()">
+<span class="label-body">İlk Çekim</span>
+</label>`;
 const codeFormContainer = document.querySelector(".codeFormContainer");
-const codeFormContainerInnerHTML = `<form class="codeForm">
+const codeFormContainerInnerHTML = `<form class="codeForm" autocomplete="off">
 <label for="codeInput">Promosyon Kodunu Giriniz: </label>
 <input type="text" id="codeInput"/>
 <input type="button" value="Gönder" onclick="codeSubmit()">
 </form>`;
 const bankFormContainer = document.querySelector(".bankFormContainer");
-const bankFormRenewed = `<form class="bankFormRenewed">
-<label for="senderName">Gönderen Adı: </label>
-<input type="text" id="senderName" placeholder="Örneğin; Selma Hanım"><br>
-<label for="customerName">Müşteri Adı: </label>
-<input type="text" id="customerName" placeholder="Örneğin; Ahmet"><br>
-<label for="customerSurname">Müşteri Soyadı: </label>
-<input type="text" id="customerSurname" placeholder="Örneğin; Yılmaz"><br>
-<label for="customerEmail">Müşteri E-posta: </label>
-<input type="text" id="customerEmail" placeholder="Örneğin; ahmet.yilmaz@email.com"><br>
-<label for="registerDate">Üye Olma Tarihi: </label>
-<input type="text" id="registerDate" placeholder="Örneğin; 02/05/2020"><br>
-<label for="packageName">Paket Adı: </label>
-<input type="text" id="packageName" placeholder="Örneğin; Aylık Paket"><br>
-<label for="packagePrice">Paket Ücreti: </label>
-<input type="text" id="packagePrice" placeholder="Örneğin; 17,99"><br>
-<label for="paymentDate">Ödeme Alınan Tarih: </label>
-<input type="text" id="paymentDate" placeholder="Örneğin; 12/06/2020"><br>
-<label>İtiraz edilen tarihte izleme geçmişi var mı?</label><br>
-<label for="yes">Var</label><input type="radio" name="watchHistory" id="yes">
-<label for="no">Yok</label><input type="radio" name="watchHistory" id="no"><br>
-<input type="button" value="Gönder" onclick="renewedSubmit()">
-</form>`;
-const bankFormFirstPurchase = `<form class="bankFormFirstPurchase">
-<label for="senderName">Gönderen Adı: </label>
-<input type="text" id="senderName" placeholder="Örneğin; Selma Hanım"><br>
-<label for="customerName">Müşteri Adı: </label>
-<input type="text" id="customerName" placeholder="Örneğin; Ahmet"><br>
-<label for="customerSurname">Müşteri Soyadı: </label>
-<input type="text" id="customerSurname" placeholder="Örneğin; Yılmaz"><br>
-<label for="customerEmail">Müşteri E-posta: </label>
-<input type="text" id="customerEmail" placeholder="Örneğin; ahmet.yilmaz@email.com"><br>
-<label for="registerDate">Üye Olma Tarihi: </label>
-<input type="text" id="registerDate" placeholder="Örneğin; 02/05/2020"><br>
-<label for="packageName">Paket Adı: </label>
-<input type="text" id="packageName" placeholder="Örneğin; Aylık Paket"><br>
-<label>İtiraz edilen tarihte izleme geçmişi var mı?</label><br>
-<label for="yes">Var</label><input type="radio" name="watchHistory" id="yes">
-<label for="no">Yok</label><input type="radio" name="watchHistory" id="no"><br>
-<input type="button" value="Gönder" onclick="firstPurchaseSubmit()">
-</form>`;
+const bankFormRenewed = `<div class="six columns">
+<form class="bankFormRenewed" autocomplete="off">
+<label class="example-send-yourself-copy row" for="senderName">
+<span class="label-body three columns">Gönderen Adı: </span>
+<input class="five columns" type="text" id="senderName" placeholder="Örneğin; Selma Hanım">
+</label>
+<label class="example-send-yourself-copy row" for="customerName">
+<span class="label-body three columns">Müşteri Adı: </span>
+<input class="five columns" type="text" id="customerName" placeholder="Örneğin; Ahmet">
+</label>
+<label class="example-send-yourself-copy row" for="customerSurname">
+<span class="label-body three columns">Müşteri Soyadı: </span>
+<input class="five columns" type="text" id="customerSurname" placeholder="Örneğin; Yılmaz">
+</label>
+<label class="example-send-yourself-copy row" for="customerEmail">
+<span class="label-body three columns">Müşteri E-posta: </span>
+<input class="five columns" type="text" id="customerEmail" placeholder="Örneğin; ahmet.yilmaz@email.com">
+</label>
+<label class="example-send-yourself-copy row" for="registerDate">
+<span class="label-body three columns">Üye Olma Tarihi: </span>
+<input class="five columns" type="text" id="registerDate" placeholder="Örneğin; 02/05/2020">
+</label>
+<label class="example-send-yourself-copy row" for="packageName">
+<span class="label-body three columns">Paket Adı: </span>
+<input class="five columns" type="text" id="packageName" placeholder="Örneğin; Aylık Paket">
+</label>
+<label class="example-send-yourself-copy row" for="packagePrice">
+<span class="label-body three columns">Paket Ücreti: </span>
+<input class="five columns" type="text" id="packagePrice" placeholder="Örneğin; 17,99">
+</label>
+<label class="example-send-yourself-copy row" for="paymentDate">
+<span class="label-body three columns">Ödeme Tarihi:</span>
+<input class="five columns" type="text" id="paymentDate" placeholder="Örneğin; 12/06/2020">
+</label>
+<label class="example-send-yourself-copy row">
+<span class="label-body">İtiraz edilen tarihte izleme geçmişi var mı?</span>
+</label>
+<label class="example-send-yourself-copy three columns" for="yes">
+<span class="label-body">Var</span>
+<input type="radio" id="yes" name="watchHistory" placeholder="Örneğin; 12/06/2020">
+</label>
+<label class="example-send-yourself-copy three columns" for="no">
+<span class="label-body">Yok</span>
+<input type="radio" id="no" name="watchHistory" placeholder="Örneğin; 12/06/2020">
+</label>
+<input class="five columns" type="button" value="Gönder" onclick="renewedSubmit()">
+</form>
+</div>`;
+const bankFormFirstPurchase = `<div class="six columns">
+<form class="bankFormFirstPurchase" autocomplete="off">
+<label class="example-send-yourself-copy row" for="senderName">
+<span class="label-body three columns">Gönderen Adı: </span>
+<input class="five columns" type="text" id="senderName" placeholder="Örneğin; Selma Hanım">
+</label>
+<label class="example-send-yourself-copy row" for="customerName">
+<span class="label-body three columns">Müşteri Adı: </span>
+<input class="five columns" type="text" id="customerName" placeholder="Örneğin; Ahmet">
+</label>
+<label class="example-send-yourself-copy row" for="customerSurname">
+<span class="label-body three columns">Müşteri Soyadı: </span>
+<input class="five columns" type="text" id="customerSurname" placeholder="Örneğin; Yılmaz">
+</label>
+<label class="example-send-yourself-copy row" for="customerEmail">
+<span class="label-body three columns">Müşteri E-posta: </span>
+<input class="five columns" type="text" id="customerEmail" placeholder="Örneğin; ahmet.yilmaz@email.com">
+</label>
+<label class="example-send-yourself-copy row" for="registerDate">
+<span class="label-body three columns">Üye Olma Tarihi: </span>
+<input class="five columns" type="text" id="registerDate" placeholder="Örneğin; 02/05/2020">
+</label>
+<label class="example-send-yourself-copy row" for="packageName">
+<span class="label-body three columns">Paket Adı: </span>
+<input class="five columns" type="text" id="packageName" placeholder="Örneğin; Aylık Paket">
+</label>
+<label class="example-send-yourself-copy row">
+<span class="label-body">İtiraz edilen tarihte izleme geçmişi var mı?</span>
+</label>
+<label class="example-send-yourself-copy three columns" for="yes">
+<span class="label-body">Var</span>
+<input type="radio" id="yes" name="watchHistory" placeholder="Örneğin; 12/06/2020">
+</label>
+<label class="example-send-yourself-copy three columns" for="no">
+<span class="label-body">Yok</span>
+<input type="radio" id="no" name="watchHistory" placeholder="Örneğin; 12/06/2020">
+</label>
+<input class="five columns" type="button" value="Gönder" onclick="firstPurchaseSubmit()">
+</form>
+</div>`;
 const promoCodeContainer = `<div class="promoCodeContainer">
 <p>Merhaba,<br>Kampanyamıza gösterdiğiniz ilgiye teşekkür ederiz. Kampanyadan yararlanmanız için kullanmanız
     gereken promosyon kodu; <span class="promoCodeSpan"
@@ -329,7 +381,7 @@ const codeSubmit = () => {
     secondDiv.innerHTML = promoCodeContainer;
     const promoCodeSpan = document.querySelector(".promoCodeSpan");
     promoCodeSpan.innerText = codeInput.value.toUpperCase();
-    firstDiv.remove();
+    firstDiv[0].remove();
 }
 const renewedSubmit = () => {
     const yes = document.getElementById("yes");
@@ -364,7 +416,7 @@ const renewedSubmit = () => {
             e.innerText = paymentDate.value;
         })
         packagePriceQuery.innerText = packagePrice.value;
-        firstDiv.remove();
+        firstDiv[0].remove();
     } else if (no.checked) {
         secondDiv.innerHTML = bankContainerRenewed
         const senderNameQuery = document.querySelector(".senderName");
@@ -385,7 +437,7 @@ const renewedSubmit = () => {
         })
         paymentDateQuery.innerText = paymentDate.value;
         packagePriceQuery.innerText = packagePrice.value;
-        firstDiv.remove();
+        firstDiv[0].remove();
     } else {
         alert('"İtiraz edilen tarihte izleme geçmişi var mı?" sorusunu yanıtlamalısınız!')
     }
@@ -417,7 +469,7 @@ const firstPurchaseSubmit = () => {
         packageNameQuery.forEach(e => {
             e.innerText = titleCase(packageName.value);
         })
-        firstDiv.remove();
+        firstDiv[0].remove();
     } else if (no.checked) {
         secondDiv.innerHTML = bankContainerFirstPurchase
         const senderNameQuery = document.querySelector(".senderName");
@@ -436,7 +488,7 @@ const firstPurchaseSubmit = () => {
         packageNameQuery.forEach(e => {
             e.innerText = titleCase(packageName.value);
         })
-        firstDiv.remove();
+        firstDiv[0].remove();
     } else {
         alert('"İtiraz edilen tarihte izleme geçmişi var mı?" sorusunu yanıtlamalısınız!')
     }

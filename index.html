@@ -5,25 +5,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <link rel="shortcut icon"
+        href="https://static.ssportplus.com/wp-content/uploads/2019/02/cropped-ssportplus-favicon-32x32.png"
+        type="image/x-icon">
     <title>Outlook Formatter</title>
 </head>
 
 <body style="font-family: 'Calibri' !important;">
-    <div class="firstDiv">
-        <div class="choice">
-            <label for="codeRadio">Promosyon Kodu</label>
-            <input type="radio" name="choice" id="codeRadio" checked onclick="radioChoice()" />
-            <label for="bankRadio">Banka İtirazı</label>
-            <input type="radio" name="choice" id="bankRadio" onclick="radioChoice()" />
-        </div>
-        <div class="isBank">
-        </div>
-        <div class="codeFormContainer">
-        </div>
-        <div class="bankFormContainer">
+    <div class="firstDiv container">
+        <div class="row">
+            <div class="choice three columns">
+                <label class="example-send-yourself-copy" for="codeRadio">
+                    <input type="radio" name="choice" id="codeRadio" checked onclick="radioChoice()">
+                    <span class="label-body">Promosyon Kodu: </span>
+                </label>
+                <label class="example-send-yourself-copy" for="bankRadio">
+                    <input type="radio" name="choice" id="bankRadio" onclick="radioChoice()">
+                    <span class="label-body">Banka İtirazı</span>
+                </label>
+            </div>
+            <div class="isBank three columns">
+            </div>
+            <div class="codeFormContainer">
+            </div>
+            <div class="bankFormContainer">
+            </div>
         </div>
     </div>
-    <div class="secondDiv">
+
+    <div class="secondDiv container">
     </div>
     <script src="app.js"></script>
 </body>

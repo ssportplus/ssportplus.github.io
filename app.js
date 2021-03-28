@@ -358,7 +358,7 @@ const renewedSubmit = () => {
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.innerText = registerDate.value;
         packageNameQuery.forEach(e => {
-            e.innerText = titleCase(packageName.value)
+            e.innerText = titleCase(packageName.value);
         })
         paymentDateQuery.forEach(e => {
             e.innerText = paymentDate.value;
@@ -381,7 +381,7 @@ const renewedSubmit = () => {
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.innerText = registerDate.value;
         packageNameQuery.forEach(e => {
-            e.innerText = titleCase(packageName.value)
+            e.innerText = titleCase(packageName.value);
         })
         paymentDateQuery.innerText = paymentDate.value;
         packagePriceQuery.innerText = packagePrice.value;
@@ -412,10 +412,10 @@ const firstPurchaseSubmit = () => {
         customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.forEach(e => {
-            e.innerText = registerDate.value
+            e.innerText = registerDate.value;
         });
         packageNameQuery.forEach(e => {
-            e.innerText = titleCase(packageName.value)
+            e.innerText = titleCase(packageName.value);
         })
         firstDiv.remove();
     } else if (no.checked) {
@@ -431,10 +431,10 @@ const firstPurchaseSubmit = () => {
         customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
         registerDateQuery.forEach(e => {
-            e.innerText = registerDate.value
+            e.innerText = registerDate.value;
         });
         packageNameQuery.forEach(e => {
-            e.innerText = titleCase(packageName.value)
+            e.innerText = titleCase(packageName.value);
         })
         firstDiv.remove();
     } else {

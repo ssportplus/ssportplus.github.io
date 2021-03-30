@@ -494,3 +494,8 @@ const firstPurchaseSubmit = () => {
     }
 
 }
+document.body.addEventListener("copy", () => {
+    setTimeout(() => {
+        location.reload();
+    }, 2000);
+})

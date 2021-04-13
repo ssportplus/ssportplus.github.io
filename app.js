@@ -126,8 +126,8 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
-                class="customerSurname">customerSurname</span> adıyla, <span
-                class="customerEmail">customerEmail</span> e-posta adresiyle <span
+                class="customerSurname">customerSurname</span> adıyla, 
+                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a> e-posta adresiyle <span
                 class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
@@ -187,8 +187,8 @@ const bankContainerRenewed = `<div class="bankContainer">
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
-                class="customerSurname">customerSurname</span> adıyla, <span
-                class="customerEmail">customerEmail</span> e-posta adresiyle <span
+                class="customerSurname">customerSurname</span> adıyla, 
+                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a> e-posta adresiyle <span
                 class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
@@ -245,8 +245,8 @@ const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
-                class="customerSurname">customerSurname</span> adıyla, <span
-                class="customerEmail">customerEmail</span>
+                class="customerSurname">customerSurname</span> adıyla, 
+                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a>
             e-posta adresiyle <span class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
@@ -299,8 +299,8 @@ const bankContainerFirstPurchase = `<div class="bankContainer">
         Talep ettiğiniz bilgiler aşağıda ve ekte yer almaktadır.</p>
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
-                class="customerSurname">customerSurname</span> adıyla, <span
-                class="customerEmail">customerEmail</span>
+                class="customerSurname">customerSurname</span> adıyla,
+                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a>  
             e-posta adresiyle <span class="registerDate">registerDate</span> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
@@ -408,6 +408,7 @@ const renewedSubmit = () => {
         customerNameQuery.innerText = titleCase(customerName.value);
         customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
+        customerEmailQuery.href = `mailto:` + customerEmail.value;
         registerDateQuery.innerText = registerDate.value;
         packageNameQuery.forEach(e => {
             e.innerText = titleCase(packageName.value);
@@ -431,6 +432,7 @@ const renewedSubmit = () => {
         customerNameQuery.innerText = titleCase(customerName.value);
         customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
+        customerEmailQuery.href = `mailto:` + customerEmail.value;
         registerDateQuery.innerText = registerDate.value;
         packageNameQuery.forEach(e => {
             e.innerText = titleCase(packageName.value);
@@ -463,6 +465,7 @@ const firstPurchaseSubmit = () => {
         customerNameQuery.innerText = titleCase(customerName.value);
         customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
+        customerEmailQuery.href = `mailto:` + customerEmail.value;
         registerDateQuery.forEach(e => {
             e.innerText = registerDate.value;
         });
@@ -482,6 +485,7 @@ const firstPurchaseSubmit = () => {
         customerNameQuery.innerText = titleCase(customerName.value);
         customerSurnameQuery.innerText = titleCase(customerSurname.value);
         customerEmailQuery.innerText = customerEmail.value;
+        customerEmailQuery.href = `mailto:` + customerEmail.value;
         registerDateQuery.forEach(e => {
             e.innerText = registerDate.value;
         });

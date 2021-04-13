@@ -127,8 +127,8 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
                 class="customerSurname">customerSurname</span> adıyla, 
-                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a> e-posta adresiyle <span
-                class="registerDate">registerDate</span> tarihinde <a
+                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a> e-posta adresiyle <b><span
+                class="registerDate">registerDate</span></b> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
         <li>Üye olma aşamasında <a
@@ -160,11 +160,11 @@ const bankContainerRenewedWatch = `<div class="bankContainer">
         <li>Müşteri <span class="packageName">packageName</span> Abonelik Paketi satın aldıktan sonra
             herhangi
             bir iptal talebi olmamış bu
-            nedenle <span class="paymentDate">paymentDate</span> tarihinde devam eden dönemin <span
+            nedenle <b><span class="paymentDate">paymentDate</span></b> tarihinde devam eden dönemin <span
                 class="packageName">packageName</span> ücreti
             olan <span class="packagePrice">packagePrice</span>₺ ücret
             tahsil edilmiştir.</li>
-        <li>Kullanıcı aboneliğinin yenilendiği <span class="paymentDate">paymentDate</span> tarihinden sonra
+        <li>Kullanıcı aboneliğinin yenilendiği <b><span class="paymentDate">paymentDate</span></b> tarihinden sonra
             ekte
             yer alan izleme geçmişinde de görüldüğü üzeri yayınlarımızı izlemiştir.</li>
         <li>Sözleşmelerin nüshaları ekte, web adresleri aşağıdaki gibidir;
@@ -188,8 +188,8 @@ const bankContainerRenewed = `<div class="bankContainer">
     <ul>
         <li>Müşterimiz <span class="customerName">customerName</span> <span
                 class="customerSurname">customerSurname</span> adıyla, 
-                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a> e-posta adresiyle <span
-                class="registerDate">registerDate</span> tarihinde <a
+                <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a> e-posta adresiyle <b><span
+                class="registerDate">registerDate</span></b> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
         <li>Üye olma aşamasında <a
@@ -221,7 +221,7 @@ const bankContainerRenewed = `<div class="bankContainer">
         <li>Müşteri <span class="packageName">packageName</span> Abonelik Paketi satın aldıktan sonra
             herhangi
             bir iptal talebi olmamış bu
-            nedenle <span class="paymentDate">paymentDate</span> tarihinde devam eden dönemin <span
+            nedenle <b><span class="paymentDate">paymentDate</span></b> tarihinde devam eden dönemin <span
                 class="packageName">packageName</span> ücreti
             olan <span class="packagePrice">packagePrice</span>₺ ücret
             tahsil edilmiştir.</li>
@@ -247,7 +247,7 @@ const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
         <li>Müşterimiz <span class="customerName">customerName</span> <span
                 class="customerSurname">customerSurname</span> adıyla, 
                 <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a>
-            e-posta adresiyle <span class="registerDate">registerDate</span> tarihinde <a
+            e-posta adresiyle <b><span class="registerDate">registerDate</span></b> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
         <li>Üye olma aşamasında <a
@@ -276,7 +276,7 @@ const bankContainerFirstPurchaseWatch = `<div class="bankContainer">
             olması sebebiyle TC. Gümrük ve Ticaret Bakanlığı <b>Mesafeli Sözleşmeler Yönetmeliği madde 15/ğ
                 kapsamına girdiği için cayma hakkına girmemektedir.</b> (ekte sözleşmeyi görebilirsiniz.)
         </li>
-        <li>Kullanıcı aboneliğini satın aldığı <span class="registerDate">registerDate</span> tarihinden sonra
+        <li>Kullanıcı aboneliğini satın aldığı <b><span class="registerDate">registerDate</span></b> tarihinden sonra
             ekte
             yer alan izleme geçmişinde de görüldüğü üzeri yayınlarımızı izlemiştir.</li>
         <li>Sözleşmelerin nüshaları ekte, web adresleri aşağıdaki gibidir;
@@ -301,7 +301,7 @@ const bankContainerFirstPurchase = `<div class="bankContainer">
         <li>Müşterimiz <span class="customerName">customerName</span> <span
                 class="customerSurname">customerSurname</span> adıyla,
                 <a href="mailto:someone@yoursite.com" class="customerEmail">customerEmail</a>  
-            e-posta adresiyle <span class="registerDate">registerDate</span> tarihinde <a
+            e-posta adresiyle <b><span class="registerDate">registerDate</span></b> tarihinde <a
                 href="https://www.ssportplus.com/">www.ssportplus.com</a> adresinden üye olmuştur.
         </li>
         <li>Üye olma aşamasında <a

@@ -117,7 +117,7 @@ const promoCodeContainer = `<div class="promoCodeContainer">
     <li>Aşağıda yer alan promosyon kodu alanına size verilen kodu yazıp KULLAN butonuna basın.</li>
     <li>Son olarak kart bilgilerinizi girerek aboneliğinizi tamamlayabilirsiniz.</li>
 </ul>
-<img src="https://lh6.googleusercontent.com/Ej652bKZHPE5NgvIEmLxXDAOO04QuflukBHx8SkLK1g5K6Kogvd-JIim5c_plBRE13ILgI2jVSkAa26VRr9Z=w1920-h888" style="width:70%">
+<img src="https://lh5.googleusercontent.com/I2b9DGZGEIErv2gTvC_QOWCpFrGgs9yj8UHxSSweAEE9MPuxA3PrCcj7-CPYgJl2UvKnlwCeocfnTfzpToza=w1920-h888" style="width:70%">
 <p>Saygılarımızla</p>
 </div>`;
 const bankContainerRenewedWatch = `<div class="bankContainer">

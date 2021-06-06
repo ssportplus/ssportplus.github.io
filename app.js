@@ -117,7 +117,7 @@ const promoCodeContainer = `<div class="promoCodeContainer">
     <li>Aşağıda yer alan promosyon kodu alanına size verilen kodu yazıp KULLAN butonuna basın.</li>
     <li>Son olarak kart bilgilerinizi girerek aboneliğinizi tamamlayabilirsiniz.</li>
 </ul>
-<img src="https://lh5.googleusercontent.com/I2b9DGZGEIErv2gTvC_QOWCpFrGgs9yj8UHxSSweAEE9MPuxA3PrCcj7-CPYgJl2UvKnlwCeocfnTfzpToza=w1920-h888" style="width:70%">
+<img src="https://i.ibb.co/crK0TGn/promo-Code.png" style="width:70%">
 <p>Saygılarımızla</p>
 </div>`;
 const bankContainerRenewedWatch = `<div class="bankContainer">

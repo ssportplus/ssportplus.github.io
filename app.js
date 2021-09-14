@@ -1,4 +1,4 @@
-const firstDiv = document.getElementsByClassName("firstDiv container");
+﻿const firstDiv = document.getElementsByClassName("firstDiv container");
 const secondDiv = document.querySelector(".secondDiv");
 const codeRadio = document.getElementById("codeRadio");
 const bankRadio = document.getElementById("bankRadio");
@@ -116,6 +116,7 @@ const promoCodeContainer = `<div class="promoCodeContainer">
     <li>Açılan sayfada kişisel bilgilerinizi girip ÜYE OL butonuna tıklayın.</li>
     <li>Aşağıda yer alan promosyon kodu alanına size verilen kodu yazıp KULLAN butonuna basın.</li>
     <li>Son olarak kart bilgilerinizi girerek aboneliğinizi tamamlayabilirsiniz.</li>
+    <li>Promosyon kodu 30 Eylül 2021 saat 23:59'a kadar geçerlidir.</li>
 </ul>
 <img src="https://i.ibb.co/crK0TGn/promo-Code.png" style="width:70%">
 <p>Saygılarımızla</p>
